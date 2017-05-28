@@ -1,6 +1,8 @@
-# audio-filter [![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
+# audio-filter [![experimental](http://badges.github.io/stability-badges/dist/experimental.svg)](http://github.com/badges/stability-badges)
 
-Collection of dsp filters.
+**WORK IN PROGRESS**, please get back after a while to not get disappointed.
+
+Collection of digital filters, for audio & dsp applications.
 
 ## Usage
 
@@ -35,7 +37,7 @@ let data = filter(samples)
 
 Implemented filters:
 
-* [ ] leaky
+* [x] leaky
 * [ ] biquad
 * [ ] loudness
 * [ ] lowpass
@@ -59,6 +61,7 @@ Implemented filters:
 
 [Leaky integrator](https://en.wikipedia.org/wiki/Leaky_integrator).
 
+<!--
 ### loudness
 
 Implemented filter types:
@@ -69,6 +72,8 @@ Implemented filter types:
 * `d` — D-weighting
 * `z` — Z-weighting (zero weighting)
 * `itu` — [ITU-R 468 weighting](https://en.wikipedia.org/wiki/ITU-R_468_noise_weighting)
+
+-->
 
 ## See also
 
