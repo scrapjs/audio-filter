@@ -1,0 +1,34 @@
+{
+  "name": "audio-filter",
+  "version": "1.0.0",
+  "description": "Collection of digital filters",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audiojs/audio-filter.git"
+  },
+  "keywords": [
+    "audio",
+    "audiojs",
+    "dsp",
+    "digital filters",
+    "psychoacoustics",
+    "noise",
+    "equal-loudness-curve",
+    "ISO-226",
+    "ITU-R-468"
+  ],
+  "author": "Dima Yv <dfcreative@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/audiojs/audio-filter/issues"
+  },
+  "homepage": "https://github.com/audiojs/audio-filter#readme",
+  "devDependencies": {
+    "almost-equal": "^1.1.0",
+    "tape": "^4.6.3"
+  }
+}
